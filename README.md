@@ -12,7 +12,7 @@ The firmware supports controlling the lamp brightness using an IR remote. You wi
 
 Once you have your codes, replace the existing codes in `odradek_firmware.ino` with your own codes.
 
-```arduino
+```cpp
 // odradek_firmware.ino
 
 const char ir_code_power = 0x59;
